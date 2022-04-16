@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e44141c0;
+}
+
+#board {
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.space {
+  background-color: #e44141c0;
+  text-align: center;
+  font-size: 150px;
+  font-family: "ubuntu";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.xStyle {
+  color: #4f42c7e3;
+}
+
+.yStyle {
+  color: #da8d35e7;
+}
+
+.space:hover {
+  cursor: pointer;
+}
+
+#searchButton {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+#display {
+  font-size: 3rem;
+  color: rgb(253, 228, 228);
+  font-family: "ubuntu";
+}
+
+.container {
+  text-align: center;
+}
